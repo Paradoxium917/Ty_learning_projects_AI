@@ -1,1 +1,14 @@
-
+First_name = "Eve"
+Last_name = "Firstperson"
+Height_ft_in = "{0}, {1}".format(5, 6)
+Height_ft_in_str = str(Height_ft_in)
+Weight_lbs = 100
+Weight_lbs_str = str(Weight_lbs)
+Clr_var1 = "light "
+Clr_var2 = "medium "
+Clr_var3 = "rich "
+Skin_clr = " brown"
+ListSkinColorA = [Clr_var1, Clr_var2, Clr_var3]
+import random
+ListSkinColor = random.choice(ListSkinColorA)
+print(First_name + " " + Last_name + " " + Height_ft_in_str + " " + Weight_lbs_str + " " + ListSkinColor)
